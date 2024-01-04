@@ -39,7 +39,8 @@ namespace eventy
             CheckFile();
         }
 
-        public event FileChangedHandler FileChanged;
+     //   public event FileChangedHandler FileChanged;
+        public FileChangedHandler FileChanged;
 
         private string prevContent;
 
